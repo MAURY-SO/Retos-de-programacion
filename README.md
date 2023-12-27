@@ -4,3 +4,5 @@
 <img src="portada.png">
   
 </div>
+
+<p>En este repositorio se cumplen diferentes retos de programacion utilizando <a>Python</a> y <a>Java</a></p>
