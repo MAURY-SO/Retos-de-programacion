@@ -9,3 +9,6 @@ for i in range(1,50):
     a = pre + pos
     pre = pos
     pos = a
+
+
+print(a)
