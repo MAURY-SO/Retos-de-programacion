@@ -1,5 +1,13 @@
-import java.util.Arrays;
+/*
+ * Escribe una función que reciba dos palabras (String) y retorne
+ * verdadero o falso (Bool) según sean o no anagramas.
+ * - Un Anagrama consiste en formar una palabra reordenando TODAS
+ *   las letras de otra palabra inicial.
+ * - NO hace falta comprobar que ambas palabras existan.
+ * - Dos palabras exactamente iguales no son anagrama.
+ */
 
+import java.util.Arrays;
 import javax.swing.JOptionPane;
 
 public class anagrama{
@@ -27,7 +35,7 @@ public class anagrama{
     Arrays.sort(pa1);
     Arrays.sort(pa2);
 
-    System.out.println("Las palabras "+p1+" y "+p2+" es "+Arrays.equals(pa1, pa2));
+    System.out.println(Arrays.equals(pa1, pa2));
 
     }
 
