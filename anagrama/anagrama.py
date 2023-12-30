@@ -1,5 +1,5 @@
 
-print("Detector de anagramas")
+print("Detector de anagramas ✓")
 p1 = input("Ingresa una palabra:");
 
 p2 = input("Ingresa otra palabra:");
