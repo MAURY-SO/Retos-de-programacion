@@ -3,6 +3,7 @@
  * decimal a binario sin utilizar funciones propias del lenguaje que lo hagan directamente.
  """
 n = int(input("Escribe un numero para convertirlo a binsrio: "));
+aux = n
 b=""
 while n>0:
     if n%2==0:
@@ -12,4 +13,4 @@ while n>0:
         
     n//=2
     
-print(b)
+print("El numero "+str(aux)+" en binario es "+b)
