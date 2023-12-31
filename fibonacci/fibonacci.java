@@ -22,6 +22,4 @@ public class fibonacci {
 
     }
 
-System.out.println(num);
-
 }
