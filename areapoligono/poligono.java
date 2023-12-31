@@ -22,7 +22,8 @@ public class poligono {
             }else{
                 aux = b * a;
             }
-        }if(poligono == 3){
+        }
+        if(poligono == 3){
                 r = Float.parseFloat(JOptionPane.showInputDialog(null, "Ingresa el radio de la figura"));
                 aux = (float)(Math.PI * r * r);
         } else {
