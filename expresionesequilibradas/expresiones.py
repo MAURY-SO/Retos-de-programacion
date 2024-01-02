@@ -1,24 +1,21 @@
-exp = input("Ingresa una expresion: ")
+exp = input("Ingresa una expresión: ")
 
-def Valid(expresion):
-    if len(expresion)%3!=0:
-        return False
-    else:
-        return True
-    
-    pd = ["(",")","{","}","[","]"]
-    exa = list(expresion)
-    
-    for i in range(0,len(expresion)):
-        if expresion[i]==pd[]
-    
-    pd.sort()
-    pd2.sort()
-    
-    if pd==pd2:
-        return True
-    else:
-        return False
+p_d = ["(", ")", "{", "}", "[", "]"]
+dic_aux = []
 
 
-print(Valid(exp))
+p_d.sort()
+set_d = set(p_d)
+set_e = set(exp)
+
+exp_aux = sorted(set_d.intersection(set_e))
+
+print(len(exp_aux))
+
+
+print(p_d)
+
+if exp_aux == p_d:
+    print("Expresion balanceada")
+else:
+    print("Expresion no balanceada")
