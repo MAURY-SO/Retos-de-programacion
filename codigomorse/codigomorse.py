@@ -1,12 +1,24 @@
 
-dm = ["._","_...","_._."]
+d = "abcdefghijklmnopqrstuvwxyz"
+p = "o"
 
-d = "abc"
-
-l = input("Ingresa una letra: ")
-
-l.lower()
-
-for i in range(0, len(l)):
-    if l[i] == d[i]:
-        print(dm[i], end=" ")
+def Index(pa,di):
+    c = 0 
+    while True:
+        if di[c]==pa[0]:
+            return c
+            break
+        else:
+            c+=1
+            
+        
+            
+    
+print(Index(p,d))
+ 
+    
+    
+    
+        
+    
+        
