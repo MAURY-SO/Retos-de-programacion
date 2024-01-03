@@ -1,9 +1,13 @@
 package factorialr;
 
+import javax.swing.JOptionPane;
+
 public class factorial {
     public static void main(String[] args) {
         
-    System.out.println(fact(4));
+    double n = Double.parseDouble(JOptionPane.showInputDialog(null,"Ingresa un numero para obtener el factorial"));
+
+    JOptionPane.showMessageDialog(null,"El factorial del numero es "+fact(n));
 
     }
 
