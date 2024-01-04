@@ -10,13 +10,16 @@ def Mayus(palabra):
     dic2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     c=0
     while True:
-        if palabra[0]==dic[c]:
-            lista = list(palabra)
-            lista[0] = dic2[c]
-            return "".join(lista)
+        if palabra[0]!=dic2[c]:
+            if palabra[0]==dic[c]:
+                lista = list(palabra)
+                lista[0] = dic2[c]
+                return "".join(lista)
+            else:
+                c+=1
         else:
-            c+=1
-            
+            return palabra
+    
 for i in range(0,len(n)):
     r.append(Mayus(n[i])) 
 
