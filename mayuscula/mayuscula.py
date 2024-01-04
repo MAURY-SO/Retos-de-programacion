@@ -1,6 +1,10 @@
 
 n = input("Ingresa una palabra en minuscula:")
 
+n = n.split(' ')
+
+r = []
+
 def Mayus(palabra):
     dic="abcdefghijklmnopqrstuvwxyz"
     dic2 = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
@@ -13,6 +17,9 @@ def Mayus(palabra):
         else:
             c+=1
             
-r = Mayus(n)
-     
-print(r)
+for i in range(0,len(n)):
+    r.append(Mayus(n[i])) 
+
+n = ' '.join(r)
+
+print(n)
