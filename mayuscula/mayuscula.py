@@ -7,11 +7,12 @@ def Mayus(palabra):
     c=0
     while True:
         if palabra[0]==dic[c]:
-            palabra[0]==dic2[c]
-            return dic2[c]
+            lista = list(palabra)
+            lista[0] = dic2[c]
+            return "".join(lista)
         else:
             c+=1
+            
+r = Mayus(n)
      
-
-        
-print(Mayus(n))
+print(r)
