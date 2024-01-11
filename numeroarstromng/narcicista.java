@@ -1,9 +1,6 @@
 package numeroarstromng;
-
-import java.util.Arrays;
 import javax.swing.JOptionPane;
 
-import numeroprimo.primo;
 
 public class narcicista {
     public static void main(String[] args) {

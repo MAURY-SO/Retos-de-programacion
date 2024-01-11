@@ -19,7 +19,7 @@ public class poligono {
 
     }
 
-    public static float AreaP(int poligono) {
+    final static float AreaP(int poligono) {
         float b, a, r,aux = 0;
         if ((poligono == 1) || (poligono == 2)) {
             b = Float.parseFloat(JOptionPane.showInputDialog(null, "Ingresa la base de la figura"));

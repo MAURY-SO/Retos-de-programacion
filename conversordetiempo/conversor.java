@@ -2,7 +2,7 @@ public class conversor {
     public static void main(String[] args) {
         
 
-    System.out.println(Conversor(23,1,5,6)+" milisegundos");
+    System.out.println(Conversor(53,1,5,6)+" milisegundos");
 
     }
 

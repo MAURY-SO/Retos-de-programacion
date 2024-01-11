@@ -8,4 +8,4 @@ def Conversor(dias, horas, minutos, segundos):
     return v1 + v2 + v3 + v4
 
 
-print(str(Conversor(24,0,0,1))+" milisegundos")
+print(str(Conversor(54,0,0,1))+" milisegundos")
