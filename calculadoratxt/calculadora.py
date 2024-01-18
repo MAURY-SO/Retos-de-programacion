@@ -1,16 +1,14 @@
 archivo = open("calculadoratxt/Challenge21.txt")
 
-def analizar(linea):
-    
-    dic = {"x","-","/","*"}
-    
-    for sim in dic:
-        if linea==sim:
-            return sim
+op = archivo.read()
 
-
-dic = {"x","-","/","*"}
-    
-
-if archivo.readline(2)=='+':
-    print(True)
+for i in range(0,len(op)):
+    match op[i]:
+        case '+':
+            print("+")
+        case '*':
+            print("*")
+        case '-':
+            print("-")
+        case '/':
+            print("/")
